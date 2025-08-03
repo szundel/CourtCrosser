@@ -24,9 +24,6 @@ For safety meetups keeps names anonymous.
 
 Reporting feature. Feature that allows users to report other users who they believe may be unsafe or violent.
 
-### CourtCrosser Score
-A central feature of the application is a gamification. Users can level up by defeating players with higher scores and level down by losing to players with lower scores.
-
 Additional data is also tracked such as a streak score similar to duolingo, but the streak can be adjusted to the players schedule such as by weekday, weekend, etc.
 
 Badges are also awarded, such as those found in Strava for taking certain actions such as defeating another players, playing your first game, recording matches, meeeting a streak goal, leveling up, etc.
@@ -37,3 +34,5 @@ A shop will be displayed allowing people to purchase CrossCourter gear featuring
 ## Premium Features
 Premium features require a monthly subscription. Allows serious pickleballers to filter their meetups to people at their general pickleball level. Level is determined by CourtCrosser Score above.
 
+### CourtCrosser Score
+A central feature of the application is a gamification. Users can level up by defeating players with higher scores and level down by losing to players with lower scores.
