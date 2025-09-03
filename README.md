@@ -36,3 +36,51 @@ Premium features require a monthly subscription. Allows serious pickleballers to
 
 ### CourtCrosser Score
 A central feature of the application is a gamification. Users can level up by defeating players with higher scores and level down by losing to players with lower scores.
+
+### App Appearance
+The icon for the app across all platforms exists here in this repo.
+
+The app will be built with a nav menu across the bottom using the titles: "Menu", "Profile", "Schedule", "History" and "Record"
+
+#### Menu
+Menu button takes the user to a menu page where they can find more buttons to navigate through the rest of the app. The menu button will include links to other pages.
+
+Additional pages will include:
+* Health - this link takes the user to a page with health and fitness records such as heart rate, weight, active weekly minutes.
+* Report - this is a reporting feature. If the person you meetup with presents any perceived dangers users should report them
+* Meetup - This is a scheduling feature meant to schedule an upcoming event. Creat
+* Notifications - Notifications includes both the type of notifications (e.g. email, in app messages) as well as the subcriptions (i.e. which communications do you want to receive). Some of the important notification settings will be centered around which meetups to subscribe to. 
+
+##### Subscriptions
+* Meetups
+  * meetups within specified distance (e.g. 5 miles)
+  * meetups organized by a set of users (e.g. previous players)
+  * meetups that include players above or between a certain crosscourter score
+  * meetups at a specific gym
+  * official tournaments 
+* Account notifications
+  * account deletion
+  * payments due
+
+#### Profile
+The Profile button contains most of the users personal information stored as settings. These items include their most frequently used court locations to play at, their common partners, their cross courter score value, email address, payment info, and their picture.
+
+For some meetups a recent photo is required to allow other cross courters to see who they will be playing meeting up with. Users who do not use a recognizable photo will be reported and their recent matches will be invalidated.
+
+There will also be a link on this page used to reset a users password, setup 2FA, or setup a passkey.
+
+Payment methods will also be included and recorded on this page.
+
+Player ID numbers along with a scannable QR code will be added to this page allowing players to use the record feature.
+
+#### Schedule
+The schedule page shows all upcoming events in orderwith the most recent at the top and the events farther in the future showing below them. Each item in the schedule will show the Title of the event, the location where it will be played, the time and date when it will occurr, an image of the venue, and any familiar crosscourt atheletes that are currently planning to attend.
+
+Clicking on a scheduled item will show more information as well as allow the players to resolve issues such as making payments to the scheduled event planners.
+
+#### Record
+The record section provides an easy mobile friendly page to record the score.
+
+To start a match a user must click "record", which begin an NFC connection with another cell phone. When the connection is opened the user will be shown a loading image such as a spinner, but will also be provided with a button that says "try another method". Clicking "try another method" will allow players to link up using a QR code (shown in their profile). Other methods will include a search feature for the players name and a id number lookup.
+
+Matches can be recorded by a single individual allowing all players to "Agree", or they can be submitted and recorded privately. All scores must be agreed upon by all players for a score to become a stored and saved official match and allowing the match to affect a players score.
